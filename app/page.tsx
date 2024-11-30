@@ -89,7 +89,7 @@ export default function Home() {
         ctx.restore();
       }
     }
-  }, [uploadedImages, text, customFont.loaded]);
+  }, [uploadedImages, text]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const files = e.target.files;
